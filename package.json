@@ -2,5 +2,23 @@
   "dependencies": {
     "express": "^4.17.3",
     "mongoose": "^6.2.6"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "friends-book",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CJThom98/friends-book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CJThom98/friends-book/issues"
+  },
+  "homepage": "https://github.com/CJThom98/friends-book#readme"
 }
