@@ -9,7 +9,6 @@ const {
     removeThought,
     removeResponse
 } = require('../../controllers/thought-contoller');
-const { update } = require('../../models/User');
 
 router
     .route('/')
