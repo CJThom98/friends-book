@@ -66,7 +66,7 @@ const thoughtController = {
         .catch(err => res.json(err));
     },
 
-    removeResponse ({ params }, res) {
+    deleteResponse ({ params }, res) {
         Thought.findOneAndUpdate(
             { _id: params.thoughtId },
             { $pull: { responses: { responseId: params.responseId } } },
@@ -91,7 +91,7 @@ const thoughtController = {
         .catch(err => res.json(err));
     },
 
-    removeThought({ params, body}, res) {
+    deleteThought({ params, body}, res) {
         Thought.findOneAndDelete({ _id: params.id })
         .then(deletedThought => {
             if (!deletedThought) {

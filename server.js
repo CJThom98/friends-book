@@ -18,6 +18,6 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network'
 
 // Use this to log mongo queries being executed!
 mongoose.set('debug', true);
-mongoose.set('useCreateIndex', true);
+//mongoose.set('useCreateIndex', true);
 
 app.listen(PORT, () => console.log(`🌍 Connected on localhost:${PORT}`));
