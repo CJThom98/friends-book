@@ -8,7 +8,7 @@ const {
     updateThought,
     removeThought,
     removeResponse
-} = require('../../controllers/thought-contoller');
+} = require('../../controllers/thought-controller');
 
 router
     .route('/')
